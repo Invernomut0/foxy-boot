@@ -1,6 +1,8 @@
 ABI := armeabi-v7a arm64-v8a x86 x86_64
 NDK := /usr/bin
 NDK_FLAGS :=
+LC_CTYPE=C
+LANG=C 
 
 .PHONY: all clean ndk-prepare ndk-build
 
